@@ -47,6 +47,9 @@ nav {
 
     .navDropdown {
         display: none;
+        a {
+            width: 100%;
+        }
     }
 }
 @media only screen and (max-width: 50em) {
