@@ -2,7 +2,7 @@
     "portfolioItems" : [{
         "title" : "Binary Challenge",
         "description" : "Having been set the challenge of creating a toy application which would calculate the length of a fence from the numbers of posts and railings, I decided the best way to do this would be to write a library to perform all the necessary mathematical operations in binary.",
-        "image" : "dist/images/BinaryChallengeScreenShot.png",
+        "image" : "dist/images/BinaryChallengeScreenshot.png",
         "viewLink" : "",
         "sourceLink": "https://github.com/HiredMussel/BinaryChallenge"
     },
