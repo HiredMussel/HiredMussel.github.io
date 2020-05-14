@@ -47,7 +47,10 @@ nav {
 
     .navDropdown {
         display: none;
+
+        width: 100%;
         a {
+            display: block;
             width: 100%;
         }
     }
