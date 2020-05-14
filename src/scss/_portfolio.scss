@@ -97,7 +97,7 @@
     grid-column: span 6;
 }
 
-@media only screen and (max-width: 65rem) {
+@media only screen and (max-width: 65em) {
     .m4Col {
         grid-column: span 4;
     }
@@ -107,7 +107,7 @@
     }
 }
 
-@media only screen and (max-width: 50rem) {
+@media only screen and (max-width: 50em) {
     .portfolioItem {
         grid-column: span 6;
     }
@@ -117,7 +117,7 @@
     }
 }
 
-@media only screen and (max-width: 40rem) {
+@media only screen and (max-width: 40em) {
     .portfolioContainer {
         grid-column-gap: 0;
     }
