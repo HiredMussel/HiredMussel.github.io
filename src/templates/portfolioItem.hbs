@@ -1,0 +1,16 @@
+{{#each portfolioItems}}
+<div class="portfolioItem" style="background-image: url({{image}})">
+    <div class="portfolioContent">
+        <h1>{{title}}</h1>
+        <p>{{description}}</p>
+        <div class="portButtonContainer">
+            {{#if viewLink}}
+                <a target="_blank" href="{{viewLink}}"><button>Visit</button></a>
+            {{/if}}
+            {{#if sourceLink}}
+                <a target="_blank" href="{{sourceLink}}"><button>Source</button></a>
+            {{/if}}
+        </div>
+    </div>
+</div>
+{{/each}}

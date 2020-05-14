@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html {
+    
+    font-size: 62.5%;
+
+    body {
+        position: relative;
+
+        background-image: url('../images/Background.svg');
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+
+        font-family: $mainFont;
+
+        #contact {
+            padding-top: 4.8rem;
+        }
+    }
+}
+
+.scrollOffset {
+    padding-top: 4.8rem;
+    .pageContent {
+        font-size: 1.6rem;
+        background-color: $contentBackground;
+        width: 80%;
+        padding-top: 1.6rem;
+        margin: 0 auto;
+        section {
+            padding: 0 2rem;
+            margin: 0;
+            h1 {
+                text-align: center;
+            }
+        }
+    }
+}

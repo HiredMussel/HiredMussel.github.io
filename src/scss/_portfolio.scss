@@ -1,0 +1,128 @@
+#portfolio {
+    padding-top: 4.8rem;
+}
+
+.portfolioContainer {
+
+    margin: 0 auto;
+
+    .portfolioItem {
+
+        position: relative;
+
+        height: 36rem;
+
+        background-size: cover;
+        background-position: center;
+
+        &:hover  .portfolioContent {
+        opacity: 1;
+        transition: 0.3s;
+        z-index: 1;
+        }
+        h1 {
+            padding: 1.6rem;
+            margin: 0;
+        }
+        p {
+            font-size: 1.2rem;
+            line-height: 1.6rem;
+            padding: 0 1rem;
+            margin: 0;
+        }
+        .portfolioContent {
+
+            display: inline-block;
+            position: absolute;
+            top: 0;
+            left: 0;
+
+            background-color: rgba(0,0,0,0.7);
+            opacity: 0;
+
+            height: 100%;
+            width: 100%;
+            
+            color: $contentBackground;
+
+            transition: 0.3s;
+            z-index: -1;
+            .portButtonContainer {
+                
+                position: absolute;
+                bottom: 1rem;
+
+                width: 100%;
+
+                text-align: center;
+
+                margin: 0 auto;
+                
+                button {
+                    width: 45%;
+                    max-width: 9rem;
+
+                    background-color: transparent;
+
+                    color: $contentBackground;
+
+                    border: 1px solid $contentBackground;
+                    border-radius: 10px;
+                    
+                    transition: 0.3s;
+                    &:hover {
+                        background-color: $contentBackground;
+
+                        color: $contentFontColour;
+
+                        transition: 0.3s;
+                    }
+                }
+            }    
+        }
+    }
+}
+
+.portfolioContainer {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 2rem;
+}
+
+.l3Col {
+    grid-column: span 3;
+}
+
+.l6Col {
+    grid-column: span 6;
+}
+
+@media only screen and (max-width: 65rem) {
+    .m4Col {
+        grid-column: span 4;
+    }
+
+    .m6Col {
+        grid-column: span 6;
+    }
+}
+
+@media only screen and (max-width: 50rem) {
+    .portfolioItem {
+        grid-column: span 6;
+    }
+
+    .sSpan {
+        grid-column: span 12;
+    }
+}
+
+@media only screen and (max-width: 40rem) {
+    .portfolioContainer {
+        grid-column-gap: 0;
+    }
+
+    .portfolioItem {
+        grid-column: span 12;
+    }
+}
