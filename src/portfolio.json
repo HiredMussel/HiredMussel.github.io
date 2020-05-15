@@ -22,14 +22,14 @@
     },
     {
         "title" : "Card Game",
-        "description" : "A group project completed at Mayden Academy, we designed and put together a simple card game powered by JavaScript.",
+        "description" : "A group project completed at Mayden Academy, we designed and put together a simple card game powered by JavaScript. It's surprisingly addictive, so have fun with it!",
         "image" : "dist/images/CardGameScreenshot.png",
         "viewLink" : "https://dev.maydenacademy.co.uk/projects/2020Feb/2020-feb-card-game/",
         "sourceLink": "https://github.com/Mayden-Academy/2020-feb-card-game"
     },
     {
         "title" : "Naked Mole Flats",
-        "description" : "A group project completed at Mayden Academy, we designed and created a fake housing website over the course of three days using PHP.",
+        "description" : "A group project completed at Mayden Academy, we designed and created a fake housing website over the course of three days using PHP. The task was to load in details of various properties from a fake API and display the properties with all relevant details on the front end.",
         "image" : "dist/images/NakedMoleFlatsScreenshot.png",
         "viewLink" : "https://dev.maydenacademy.co.uk/projects/2020Feb/2020-frb-nakedMoleFlats/",
         "sourceLink": "https://github.com/Mayden-Academy/2020-feb-nakedMoleFlats"
