@@ -15,10 +15,10 @@
     },
     {
         "title" : "This Site!",
-        "description" : "I designed and built this site myself using HTML, SCSS and TypeScript. I even built the background image myself! You can view the sourBce code on GitHub if you're curious.",
+        "description" : "I designed and built this site myself using HTML, SCSS and TypeScript. I even built the background image myself! You can view the source code on GitHub if you're curious.",
         "image" : "dist/images/PortfolioScreenShot.png",
         "viewLink" : "",
-        "sourceLink": "https://github.com/HiredMussel/portfolioV2"
+        "sourceLink": "https://github.com/HiredMussel/HiredMussel.github.io"
     },
     {
         "title" : "Card Game",
