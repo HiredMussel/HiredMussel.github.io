@@ -33,5 +33,12 @@
         "image" : "dist/images/NakedMoleFlatsScreenshot.png",
         "viewLink" : "https://dev.maydenacademy.co.uk/projects/2020Feb/2020-frb-nakedMoleFlats/",
         "sourceLink": "https://github.com/Mayden-Academy/2020-feb-nakedMoleFlats"
+    },
+    {
+        "title" : "Parsimony in Phylogenetics",
+        "description" : "My 4th year project at the University of Warwick, for which I received a first, was to do with algorithmic approaches for efficiently searching tree space for the phylogenetic tree with maximum parsimony.",
+        "image" : "dist/images/ProjectScreenShot.png",
+        "viewLink" : "https://github.com/HiredMussel/ParsimonyinPhylogenetics/",
+        "sourceLink": ""
     }]
 }
